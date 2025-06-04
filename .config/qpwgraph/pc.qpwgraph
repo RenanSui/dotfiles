@@ -1,0 +1,74 @@
+<!DOCTYPE patchbay>
+<patchbay name="pc" version="0.9.2">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Noise Canceling source" port="Noise Canceling source:capture_MONO"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Noise Canceling source" port="Noise Canceling source:capture_MONO"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_Spotify" port="Sink_Spotify:monitor_FL"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_PC_Game" port="Sink_PC_Game:monitor_FR"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_Discord" port="Sink_Discord:monitor_FL"/>
+   <input node="HDA NVidia Digital Stereo (HDMI)" port="LG ULTRAWIDE:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_Discord" port="Sink_Discord:monitor_FR"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_PC_Speakers" port="Sink_PC_Speakers:monitor_FR"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="PCM2902 Audio Codec Pro" port="USB PnP Sound Device:capture_AUX0"/>
+   <input node="RNNoise Canceling source" port="RNNoise Canceling source:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_PC_Game" port="Sink_PC_Game:monitor_FL"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_Spotify" port="Sink_Spotify:monitor_FR"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Noise Canceling source" port="Noise Canceling source:monitor_MONO"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_Discord" port="Sink_Discord:monitor_FL"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_PC_Audio" port="Sink_PC_Audio:monitor_FL"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_PC_Audio" port="Sink_PC_Audio:monitor_FR"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_PC_Speakers" port="Sink_PC_Speakers:monitor_FL"/>
+   <input node="HDA NVidia Pro" port="LG ULTRAWIDE:playback_AUX0"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Sink_Discord" port="Sink_Discord:monitor_FR"/>
+   <input node="HDA NVidia Digital Stereo (HDMI)" port="LG ULTRAWIDE:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Noise Canceling source" port="Noise Canceling source:monitor_MONO"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FL"/>
+  </item>
+ </items>
+</patchbay>
+
