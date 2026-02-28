@@ -1,0 +1,4 @@
+accent_primary = "#FFCCDD"    # Primary accent (e.g. Violet)
+accent_secondary = "#9AADE6"  # Secondary accent / Hover (e.g. Cyan)
+background = "#1d1d1d"       # System background color
+foreground = "#d4d4d4"       # System text color
