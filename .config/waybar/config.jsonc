@@ -23,8 +23,7 @@
     "battery",
     "backlight",
     "pulseaudio",
-    "pulseaudio#microphone",
-    "wireplumber"
+    "pulseaudio#microphone"
   ],
   "hyprland/window": {
     "format": "󰣇 {}",
@@ -184,15 +183,5 @@
     "interval": 10,
     "on-click": "orbit toggle top-right",
     "format": "󱗿"
-  },
-  "wireplumber": {
-    "format": "{volume}% {icon}",
-    "format-muted": "",
-    "on-click": "helvum",
-    "format-icons": [
-      "",
-      "",
-      ""
-    ]
   }
 }
