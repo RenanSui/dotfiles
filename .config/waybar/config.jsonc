@@ -23,7 +23,8 @@
     "battery",
     "backlight",
     "pulseaudio",
-    "pulseaudio#microphone"
+    "pulseaudio#microphone",
+    "wireplumber"
   ],
   "hyprland/window": {
     "format": "󰣇 {}",
@@ -97,9 +98,9 @@
   },
   "pulseaudio": {
     "format": "{icon}  {volume}%",
-    "tooltip": true,
+    "tooltip": false,
     "format-muted": "  Muted",
-    "on-click": "pamixer -t",
+    "on-click": "pwvucontrol",
     "on-scroll-up": "pamixer -i 1",
     "on-scroll-down": "pamixer -d 1",
     "scroll-step": 5,
@@ -183,5 +184,15 @@
     "interval": 10,
     "on-click": "orbit toggle top-right",
     "format": "󱗿"
+  },
+  "wireplumber": {
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "on-click": "helvum",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
   }
 }
