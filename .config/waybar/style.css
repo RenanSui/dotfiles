@@ -69,8 +69,7 @@ tooltip {
 #memory,
 #workspaces,
 #tray,
-#backlight,
-#custom-orbit {
+#backlight {
   background: rgba(13, 10, 12, 0.87);
   color: #627585;
   padding: 4px 16px;
@@ -155,13 +154,6 @@ tooltip #cpu {
   margin-right: 5px;
 }
 
-
 #window {
   color: #D99D94;
-}
-
-#custom-orbit {
-  border-radius: 99px;
-  margin-right: 10px;
-  color: #DC7974;
 }

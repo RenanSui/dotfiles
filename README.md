@@ -20,5 +20,5 @@ pacman -S hyprland kitty wofi cliphist fastfetch waybar mako grim slurp networkm
 ```
 
 ```bash
-yay -S orbit-wifi fish-done
+yay -S fish-done
 ```

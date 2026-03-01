@@ -17,7 +17,6 @@
     "tray",
     "memory",
     "cpu",
-    "custom/orbit",
     "hyprland/language",
     "network",
     "battery",
@@ -176,12 +175,5 @@
     "format-ru": "🇷🇺",
     "keyboard-name": "at-translated-set-2-keyboard",
     "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
-  },
-  "custom/orbit": {
-    "exec": "orbit waybar-status",
-    "return-type": "json",
-    "interval": 10,
-    "on-click": "orbit toggle top-right",
-    "format": "󱗿"
   }
 }
