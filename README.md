@@ -16,7 +16,7 @@ Navigate to the dotfiles directory:
 
 Install Dependecies
 ```bash
-pacman -S hyprland kitty wofi cliphist fastfetch waybar mako grim slurp networkmanager network-manager-applet polkit polkit-kde-agent vlc waybar bluez gtk4 gtk4-layer-shell pipewire helvum pamixer pwvucontrol ttf-jetbrains-mono-nerd gnome-keyring libsecret yazi swaybg fish eza
+pacman -S hyprland kitty wofi cliphist fastfetch waybar mako grim slurp networkmanager network-manager-applet polkit hyprpolkitagent vlc waybar bluez gtk4 gtk4-layer-shell pipewire helvum pamixer pwvucontrol ttf-jetbrains-mono-nerd gnome-keyring libsecret yazi swaybg fish eza
 ```
 
 ```bash
